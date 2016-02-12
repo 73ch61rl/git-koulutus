@@ -15,5 +15,7 @@ brew install git
 # Asennetaan tig
 brew install tig
 
+# TODO: Määrittele default editori, miten?
+
 # Maisc!
 echo "Asia kunnossa! 😎"

@@ -1,14 +1,31 @@
 # Käsis
+Jos disainerit osais käyttää gittiä ja komentoriviä ne veis meidän naiset ja työt
+Ainoa este siihen on niiden osaamattomuus gitissä ja komentorivin käytössä
 
+## 0. Intro
 1. intro atte + matu
 
-1. terminaali auki, mee jonnekkin esim. sites/
-1. git clone https://github.com/reaktor/git-koulutus-suunnittelijoille.git
+## 1. Harjoitus
+1. terminaali auki, mee jonnekkin esim. `sites/`
+1. `git clone https://github.com/reaktor/git-koulutus-suunnittelijoille.git`
+1. `cd git-koulutus-suunnittelijoille`
+1. `chmod +x install.sh` ja `./install.sh`
 1. restart terminal
+1. muokaa README.md tiedostoa
+1. `git status` ja `git diff`
+1. `git add README.md` ja `git status`
+1. `git commit`, commit messaget ja `git log`
+1. `tig`!
+1. tehkää 4x add + commit
 
-1. muokaa readme.md
-1. git status, git diff
-1. git add readme.md, git status
-1. git commit, commit messaget, git log
-1. tig!!!
-1. tehkää 4 add+commit
+## 2. Harjoitus
+1. github intro atte + matu
+1. jakaudutaan 2-4 hlö pienryhmiin
+1. mihin repoon jengi puskee? tekeekö ne oman repon ryhmää varten vai oman branchin?
+1. yks tyyppi `git push master`
+1. muut ottaa `git pull`
+1. jokainen tyyppi muokaa vain yhtä osioo tekstistä (lisää, muuttaa, poistaa - ei sinänsä väliä)
+  1. `git add README.md` ja `git commit`
+  1. `git pull --rebase`
+  1. `git push master`
+  1. toistetaan pari kertaa
