@@ -19,15 +19,18 @@ Tehtävä ennen koulutusta
 
 ## Harjoituksen agenda
 
-### Perusteet
+#### Perusteet
 - Nopea intro gitistä: mikä se on ja mikä on tämä versiohallinta?!
 - Laitetaan kehitysympäristö pystyyn, me pidetään sua kädestä kiiinni
 - Käydään läpi perusteet: `status`, `add`, `commit`, `log` ja `diff`
 
-### Ryhmätyöskentely
+#### Ryhmätyöskentely
 - Tutustuaan GitHubiin
 - Jakaudutaan pienryhmiin ja tutustutaan ryhmätyöskentelyn saloihin: `push`, `pull`, `rebase`, `merge` ja `fetch`
 - Tehdään muutama harjoitus
+
+#### Visujen tunkkaus
+- Muokataan olemassa olevaa palvelun kottareita
 
 ## Lisää lukemista
 
