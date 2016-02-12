@@ -12,11 +12,11 @@ Ainoa este siihen on niiden osaamattomuus gitissä ja komentorivin käytössä
 1. `chmod +x install.sh` ja `./install.sh`
 1. restart terminal
 1. muokaa README.md tiedostoa
-1. `git status` ja `git diff`
-1. `git add README.md` ja `git status`
-1. `git commit`, commit messaget ja `git log`
-1. `tig`!
-1. tehkää 4x add + commit
+  1. `git status` ja `git diff`
+  1. `git add README.md` ja `git status`
+  1. `git commit`, commit messaget ja `git log`
+  1. `tig`!
+  1. tehkää 4x add + commit
 
 ## 2. Harjoitus
 1. github intro atte + matu
@@ -29,3 +29,16 @@ Ainoa este siihen on niiden osaamattomuus gitissä ja komentorivin käytössä
   1. `git pull --rebase`
   1. `git push master`
   1. toistetaan pari kertaa
+1. kaikki muuttaa samaa kohtaa tekstissä (lisää, muuttaa, poistaa - ei sinänsä väliä)
+  1. `git add README.md` ja `git commit`
+  1. `git pull --rebase`
+  1. ratkotaan merge conflicteja
+
+## 3. Harjoitus
+1. `cd kottarit`
+1. vaihdetaan heron taustaväri 
+1. päivitetään tuotekuva
+1. esikatsellaan muutokset lokaalisti selaimessa
+1. `git add .`
+1. `git commit`
+1. Kerää liikevoitto :)
