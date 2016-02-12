@@ -37,8 +37,8 @@ Ainoa este siihen on niiden osaamattomuus gitissä ja komentorivin käytössä
 ## 3. Harjoitus
 1. `cd kottarit`
 1. vaihdetaan heron taustaväri 
-1. päivitetään tuotekuva
+1. päivitetään tuotekuva, esim. uus screenshotti jostain softasta
 1. esikatsellaan muutokset lokaalisti selaimessa
-1. `git add .`
+1. `git add -u`
 1. `git commit`
 1. Kerää liikevoitto :)
