@@ -11,3 +11,9 @@ chsh -s /usr/local/bin/fish
 
 # Päivitetään git uusimpaan
 brew install git
+
+# Asennetaan tig
+brew install tig
+
+# Maisc!
+echo "Asia kunnossa! 😎"
