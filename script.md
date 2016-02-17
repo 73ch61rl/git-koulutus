@@ -15,7 +15,7 @@ Ainoa este siihen on niiden osaamattomuus gitissä ja komentorivin käytössä
 1. terminaali auki, mee jonnekkin esim. `sites/`
 1. `git clone https://github.com/reaktor/git-koulutus-suunnittelijoille.git`
 1. `cd git-koulutus-suunnittelijoille`
-1. `chmod +x install.sh` ja `./install.sh`
+1. `sh install.sh`
 1. restart terminal
 1. muokaa README.md tiedostoa
   1. `git status` ja `git diff`
