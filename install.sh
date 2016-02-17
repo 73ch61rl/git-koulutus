@@ -2,11 +2,11 @@
 
 # Asennetaan homebrew, fish shell ja git koulutusta varten
 
-# Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
 # Xcode CLI tools
 xcode-select --install
+
+# Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Fish
 brew install fish
