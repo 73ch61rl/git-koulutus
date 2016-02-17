@@ -5,10 +5,10 @@ set -oe
 # Asennetaan homebrew, fish shell ja git koulutusta varten
 
 # Xcode CLI tools
-xcode-select --install || echo "👍"
+xcode-select --install || echo "xcode 👍"
 
 # Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" || echo "homebrew 👍"
 
 # Fish
 brew install fish
