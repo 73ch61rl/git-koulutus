@@ -7,6 +7,8 @@ Ainoa este siihen on niiden osaamattomuus gitissä ja komentorivin käytössä
 1. Lisää oikea nimesi github-profiiliin
 1. Kuva olisi kiva
 1. Kerro github usernamesi släkissä #admin-kanavalle ja pyydä lisäämään reaktorians-ryhmään
+1. Asenna tarvittavat ohjelmat:
+  `curl https://raw.githubusercontent.com/reaktor/git-koulutus-suunnittelijoille/master/install.sh | sh`
 
 ## 1. Intro
 1. intro atte + matu
@@ -43,7 +45,7 @@ Ainoa este siihen on niiden osaamattomuus gitissä ja komentorivin käytössä
 
 ## 4. Harjoitus
 1. `cd kottarit`
-1. vaihdetaan heron taustaväri 
+1. vaihdetaan heron taustaväri
 1. päivitetään tuotekuva, esim. uus screenshotti jostain softasta
 1. esikatsellaan muutokset lokaalisti selaimessa
 1. `git add -u`
