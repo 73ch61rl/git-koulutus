@@ -12,6 +12,7 @@ xcode-select --install > /dev/null 2>&1 || echo "xcode 👍"
 
 # Fish
 brew install fish
+sudo sh -c "echo /usr/local/bin/fish >> /etc/shells"
 chsh -s /usr/local/bin/fish
 
 # Asenna uusin git ja tig
