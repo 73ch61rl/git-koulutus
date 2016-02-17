@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -oe
+
 # Asennetaan homebrew, fish shell ja git koulutusta varten
 
 # Xcode CLI tools
