@@ -2,13 +2,6 @@
 
 Oletus on että oppilaat eivät juuri ole käyttäneet gittiä mutta haluavat oppia käyttämää sitä. Harjoitusten tavoitteena on että opitaan perus git workflow monikehittäjäympäristössä sekä siihen tarvittavat työkalut (koodieditori, pääte, git, github) käytännön tehtävän kautta. Lopuksi kerrataan opitut asiat ja annetaan läksy.
 
-Tehtävä ennen koulutusta
-
-1. [Luo github-tunnarit](https://github.com/join)
-1. Lisää oikea nimesi github-profiiliin
-1. Kuva olisi kiva
-1. Kerro github usernamesi släkissä #admin-kanavalle ja pyydä lisäämään reaktorians-ryhmään
-
 ## Ennakkotehtävä
 
 1. Asenna joku seuraavista tekstieditoreista
