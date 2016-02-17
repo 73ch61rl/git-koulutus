@@ -26,6 +26,7 @@ Ainoa este siihen on niiden osaamattomuus gitissä ja komentorivin käytössä
 
 ## 3. Harjoitus
 1. github intro atte + matu
+1. ssh key generation https://help.github.com/articles/generating-a-new-ssh-key/
 1. jakaudutaan 2-4 hlö pienryhmiin
 1. mihin repoon jengi puskee? tekeekö ne oman repon ryhmää varten vai oman branchin?
 1. yks tyyppi `git push master`
