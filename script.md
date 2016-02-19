@@ -28,7 +28,9 @@ Ainoa este siihen on niiden osaamattomuus gitissä ja komentorivin käytössä
 
 ## 3. Harjoitus
 1. github intro atte + matu
-1. ssh key generation https://help.github.com/articles/generating-a-new-ssh-key/ || github desktop tekee tän kun käynnistää softan ja kirjautuu sisään, parempi?
+1. ssh key generation
+  - terminal: `ssh-keygen -C "sun_maili@domain.com" && cat ~/.ssh/id_rsa.pub | pbcopy` -> https://github.com/settings/ssh -> New SSH key
+  - github desktop: käynnistä softa ja kirjaudu sisään -> done, parempi?
 1. jakaudutaan 2-4 hlö pienryhmiin
 1. mihin repoon jengi puskee? tekeekö ne oman repon ryhmää varten vai oman branchin?
 1. yks tyyppi `git push master`
