@@ -28,16 +28,17 @@ Ainoa este siihen on niiden osaamattomuus gitissä ja komentorivin käytössä
 
 ## 3. Harjoitus
 1. github intro atte + matu
-1. ssh key generation
-  - terminal: `ssh-keygen -C "sun_maili@domain.com" && cat ~/.ssh/id_rsa.pub | pbcopy` -> https://github.com/settings/ssh -> New SSH key
-  - github desktop: käynnistä softa ja kirjaudu sisään -> done, parempi?
+1. ssh key generation `ssh-keygen -C "sun_maili@domain.com" -f ~/.ssh/id_github && cat ~/.ssh/id_github.pub | pbcopy` -> https://github.com/settings/ssh -> New SSH key
 1. jakaudutaan 2-4 hlö pienryhmiin
-1. mihin repoon jengi puskee? tekeekö ne oman repon ryhmää varten vai oman branchin?
-1. yks tyyppi `git push master`
-1. muut ottaa `git pull`
+1. yks tyyppi ryhmästä luo harjoitukselle github repon, ei readme teidostoa
+1. lisätään muut ryhmän jäsenet repoon, settings -> collaborators
+1. kaikki avaa mailissa olleen linkin ja kopio repon HTTPS osoitteen
+1. kaikki `git clone [repon urli tähän]`
+1. lisätään edellisen harjoituksen README.md tideosto repoon -> `git add .` ja `git commit -m "Initial commit"`
+1. kaikki `git pull`
 1. jokainen tyyppi muokaa vain yhtä osioo tekstistä (lisää, muuttaa, poistaa - ei sinänsä väliä)
   1. `git add README.md` ja `git commit`
-  1. `git pull --rebase`
+  1. `git pull`
   1. `git push master`
   1. toistetaan pari kertaa
 1. kaikki muuttaa samaa kohtaa tekstissä (lisää, muuttaa, poistaa - ei sinänsä väliä)
