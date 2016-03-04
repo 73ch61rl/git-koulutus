@@ -21,7 +21,7 @@ Ainoa este siihen on niiden osaamattomuus gitissä ja komentorivin käytössä
 1. restart terminal
 1. muokaa README.md tiedostoa
   1. `git status` ja `git diff`
-  1. `git add README.md` ja `git status`
+  1. `git add README.md` <-[TAB MAGIC] ja `git status`
   1. `git commit`, commit messaget ja `git log`
   1. `tig`!
   1. tehkää 4x add + commit
@@ -51,6 +51,6 @@ Ainoa este siihen on niiden osaamattomuus gitissä ja komentorivin käytössä
 1. vaihdetaan heron taustaväri
 1. päivitetään tuotekuva, esim. uus screenshotti jostain softasta
 1. esikatsellaan muutokset lokaalisti selaimessa
-1. `git add -u`
+1. `git add`
 1. `git commit`
 1. Kerää liikevoitto :)
