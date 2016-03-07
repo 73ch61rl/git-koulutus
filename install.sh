@@ -1,17 +1,19 @@
 #!/bin/sh
 
 # Homebrew
-echo "Asennetaan Homebrew…"
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" > install.log 2>&1
-if [ $? -ne 0 ]; then
-    echo "Nyt täytyy hyväksyä XCoden lisenssi"
-    sudo xcodebuild -license accept
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" >> install.log 2>&1
-fi
+if [ ! -x /usr/loca/bin/brew ]; then
+    echo "Asennetaan Homebrew…"
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" > install.log 2>&1
+    if [ $? -ne 0 ]; then
+        echo "Nyt täytyy hyväksyä XCoden lisenssi"
+        sudo xcodebuild -license accept
+        /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" >> install.log 2>&1
+    fi
 
-if [ ! -x /usr/local/bin/brew ]; then
-    echo "Brewin asentaminen epäonnistui, pyydä apua släkissä #git-koulutus"
-    exit 1
+    if [ ! -x /usr/local/bin/brew ]; then
+        echo "Brewin asentaminen epäonnistui, pyydä apua släkissä #git-koulutus"
+        exit 1
+    fi
 fi
 
 # Fish
