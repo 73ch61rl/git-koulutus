@@ -8,6 +8,11 @@ Niinku puhetta oli, joku Terminalin perusteet vois olla kans ihan hyvä kurssi
 
 Merge konflikti on gitin käytössä se pelottavin juttu ja yleensäkin kynnys käyttää gitiä, kun pelkää, että sössii devauksen versiot. Nyt oli turvallinen ympäristö olla tyhmä ja sai tehdä luvan kanssa konflikteja ja korjata niitä.
 
+# Visualisointi
+
+Visualisoidaan fläppitaululla + postiteillä add -> commit rumba
+
+
 # Ajatuksia
 
 Skipataan installer skripti ja mennään niin vanillana kun voidaan.
@@ -28,7 +33,7 @@ Muutama terminaali conffi
 
     source $(brew --prefix)/etc/bash_completion.d/git-prompt.sh
 
-    PS1="\h:\W \u\$(__git_ps1 \" (%s) \")\$ ""
+    PS1="\h:\W \u\$(__git_ps1 \" (%s) \")\$ "
 
 
 .gitconfig
