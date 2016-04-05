@@ -4,10 +4,10 @@ Oletus on että oppilaat eivät juuri ole käyttäneet gittiä mutta haluavat op
 
 ## Ennakkotehtävä
 
-1. Asenna joku seuraavista tekstieditoreista
-  - [Atom](https://atom.io/)
-  - [Sublime Text 3](https://www.sublimetext.com/)
-  - [Visual Studio Code](https://code.visualstudio.com/)
+1. [Luo github-tunnarit](https://github.com/join)
+1. Lisää oikea nimesi ja kuvasi github-profiiliin
+1. Kerro github usernamesi släkissä #admin-kanavalle ja pyydä lisäämään reaktorians-ryhmään
+1. Asenna [Atom](https://atom.io/) tekstieditori
 1. Jos haluat, tee GitHubin [Try Git](https://try.github.io)-harjoitus.
 
 ## Harjoituksen agenda

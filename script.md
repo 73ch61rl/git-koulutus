@@ -7,10 +7,10 @@
 ## 0. Tehtävä ennen koulutusta
 
 1. [Luo github-tunnarit](https://github.com/join)
-1. Lisää oikea nimesi github-profiiliin
-1. Kuva olisi kiva
+1. Lisää oikea nimesi ja kuvasi github-profiiliin
 1. Kerro github usernamesi släkissä #admin-kanavalle ja pyydä lisäämään reaktorians-ryhmään
 1. Asenna [Atom](https://atom.io/) tekstieditori
+1. Jos haluat, tee GitHubin [Try Git](https://try.github.io)-harjoitus.
 
 ## 1. Intro
 
