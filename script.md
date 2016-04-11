@@ -45,7 +45,24 @@ Muoktaan bash_profilea `cd` + `atom .bash_profile`
 
     source $(brew --prefix)/etc/bash_completion.d/git-prompt.sh
 
-    PS1="\h:\W \u\$(__git_ps1 \" (%s) \")\$ "
+    export PS1="\u \w \$(__git_ps1 \"(%s) \")\$ "
+
+Advanced edelliseen, haluun kivat värit
+
+    export CLICOLOR=1
+    export LSCOLORS=ExFxCxDxBxegedabagacad
+
+    if [ -f $(brew --prefix)/etc/bash_completion ]; then
+      source $(brew --prefix)/etc/bash_completion
+    fi
+
+    source $(brew --prefix)/etc/bash_completion.d/git-prompt.sh
+
+    # Tumma terminaali theme
+    export PS1="\[\e[33m\]\u\[\e[m\] \[\e[32m\]\w\[\e[m\] \[\e[34m\]\$(__git_ps1 \"(%s) \")\[\e[m\]\$ "
+
+    # Vaalea terminaali theme
+    # export PS1="\[\e[31m\]\u\[\e[m\] \[\e[32m\]\w\[\e[m\] \[\e[34m\]\$(__git_ps1 \"(%s) \")\[\e[m\]\$ "
 
 Muoktaan gitconfigia
     
