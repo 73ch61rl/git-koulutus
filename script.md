@@ -37,7 +37,7 @@ Tab completion ignore case
 
     echo "set completion-ignore-case On" >> ~/.inputrc
 
-Muoktaan bash_profilea `cd` + `atom .bash_profile`
+Muoktaan bash_profilea `atom ~/.bash_profile`
 
     if [ -f $(brew --prefix)/etc/bash_completion ]; then
       source $(brew --prefix)/etc/bash_completion
@@ -47,7 +47,22 @@ Muoktaan bash_profilea `cd` + `atom .bash_profile`
 
     export PS1="\u \w \$(__git_ps1 \"(%s) \")\$ "
 
-Advanced edelliseen, haluun kivat värit
+Muoktaan gitconfigia
+    
+    git config --global user.name "Oma Nimi"
+    git config --global user.email "oma.nimi@reaktor.com"
+    git config --global color.ui true
+    git config --global core.editor "atom -w"
+
+Restart terminal!
+
+### 3.1 Advanced edelliseen, haluun kivat värit! 
+
+[Lataa matun theme tästä](https://www.dropbox.com/s/2g5yzgc6d5r0mge/Cuicca.terminal?dl=1), ohjeet asentamiseen alla
+
+![ohje](http://i.stack.imgur.com/KeH56.png)
+
+Muoktaan bash_profilea `atom ~/.bash_profile`
 
     export CLICOLOR=1
     export LSCOLORS=ExFxCxDxBxegedabagacad
@@ -63,15 +78,6 @@ Advanced edelliseen, haluun kivat värit
 
     # Vaalea terminaali theme
     # export PS1="\[\e[31m\]\u\[\e[m\] \[\e[32m\]\w\[\e[m\] \[\e[34m\]\$(__git_ps1 \"(%s) \")\[\e[m\]\$ "
-
-Muoktaan gitconfigia
-    
-    git config --global user.name "Oma Nimi"
-    git config --global user.email "oma.nimi@reaktor.com"
-    git config --global color.ui true
-    git config --global core.editor "atom -w"
-
-Restart terminal!
 
 ## 4. Harjoitus
 
