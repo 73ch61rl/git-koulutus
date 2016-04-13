@@ -89,6 +89,7 @@ Restart terminal!
 ## 5. Harjoitus
 
 1. Github intro Atte + Matu
+1. Atte + Matu visualisoi git add-commit-push-pull flown fläppitaululla + postiteilla
 1. SSH key generation `ssh-keygen` ja `cat ~/.ssh/id_github.pub` -> https://github.com/settings/ssh -> New SSH key
 1. Testataan yhteys `ssh -T git@github.com`
 1. Kaikki luo harjoitukselle github repon, ei readme tiedostoa
