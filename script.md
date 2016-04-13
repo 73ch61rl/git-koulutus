@@ -58,9 +58,13 @@ Restart terminal!
 
 ### 3.1 Advanced edelliseen, haluun kivat värit! 
 
-[Lataa matun theme tästä](https://www.dropbox.com/s/2g5yzgc6d5r0mge/Cuicca.terminal?dl=1), ohjeet asentamiseen alla
+[Lataa matun theme tästä](https://www.dropbox.com/s/2g5yzgc6d5r0mge/Cuicca.terminal?dl=1)
+
+Importtaa theme
 
 ![ohje](http://i.stack.imgur.com/KeH56.png)
+
+Valitse listassa _Cuicca_ theme, paina **Default** nappia
 
 Muoktaan bash_profilea `atom ~/.bash_profile`
 
