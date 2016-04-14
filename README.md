@@ -4,11 +4,12 @@ Oletus on että oppilaat eivät juuri ole käyttäneet gittiä mutta haluavat op
 
 ## Ennakkotehtävä
 
-1. [Luo github-tunnarit](https://github.com/join)
+1. [Luo github-tunnarit](https://github.com/join), jos ei sulla jo ole
 1. Lisää oikea nimesi ja kuvasi github-profiiliin
-1. Kerro github usernamesi släkissä #admin-kanavalle ja pyydä lisäämään reaktorians-ryhmään
-1. Asenna [Atom](https://atom.io/) tekstieditori
-1. Jos haluat, tee GitHubin [Try Git](https://try.github.io)-harjoitus.
+1. Kerro github usernamesi släkissä [#admin](https://reaktor.slack.com/messages/admin/) kanavalla ja pyydä lisäämään reaktorians-ryhmään
+1. Liity släkissä kanavalle [#git-koulutus](https://reaktor.slack.com/messages/git-koulutus/)
+1. Asenna [Atom](https://atom.io/) ja [GitX](http://rowanj.github.io/gitx/)
+1. Jos haluat, tee GitHubin [Try Git](https://try.github.io)-harjoitus
 
 ## Harjoituksen agenda
 
