@@ -18,7 +18,7 @@
 1. Siirrytään hakemistoista toiseen, luodaan tiedosto ja avataan tiedostoja `atom/open tiedosto.txt`
 1. Poistetaan temppihakemisto
 
-# 3. Terminaali & git konffaus
+## 3. Terminaali & git konffaus
 
 Asennetaan [Homebrew](http://brew.sh)
 
@@ -53,7 +53,7 @@ Restart terminal!
 
 ### 3.1 Advanced edelliseen, haluun kivat värit! 
 
-[Lataa matun theme tästä](https://www.dropbox.com/s/2g5yzgc6d5r0mge/Cuicca.terminal?dl=1)
+[Lataa matun theme tästä](https://www.dropbox.com/s/1efe8mz4xlc436m/Cuicca.terminal?dl=1)
 
 Importtaa theme
 

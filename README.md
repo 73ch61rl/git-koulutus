@@ -18,7 +18,7 @@ Oletus on että oppilaat eivät juuri ole käyttäneet gittiä mutta haluavat op
 ## Harjoituksen agenda
 
 #### Perusteet
-- Nopea intro gitistä: mikä se on ja mikä on tämä versiohallinta?!
+- Intro gitistä: mikä se on ja mikä on tämä versiohallinta?!
 - Laitetaan kehitysympäristö pystyyn, me pidetään sua kädestä kiiinni
 - Käydään läpi perusteet: `status`, `add`, `commit`, `log` ja `diff`
 
