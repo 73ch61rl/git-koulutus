@@ -2,6 +2,10 @@
 
 Oletus on että oppilaat eivät juuri ole käyttäneet gittiä mutta haluavat oppia käyttämää sitä. Harjoitusten tavoitteena on että opitaan perus git workflow monikehittäjäympäristössä sekä siihen tarvittavat työkalut (koodieditori, pääte, git, github) käytännön tehtävän kautta. Lopuksi kerrataan opitut asiat ja annetaan läksy.
 
+>Jos disainerit osais käyttää gittiä ja komentoriviä ne veis meidän naiset ja työt  
+>Ainoa este siihen on niiden osaamattomuus gitissä ja komentorivin käytössä  
+>– Vessi
+
 ## Ennakkotehtävä
 
 1. [Luo github-tunnarit](https://github.com/join), jos ei sulla jo ole

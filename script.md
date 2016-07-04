@@ -1,9 +1,3 @@
-# Käsis
-
->Jos disainerit osais käyttää gittiä ja komentoriviä ne veis meidän naiset ja työt  
->Ainoa este siihen on niiden osaamattomuus gitissä ja komentorivin käytössä  
->– Vessi
-
 ## 0. Tehtävä ennen koulutusta
 
 1. [Luo github-tunnarit](https://github.com/join), jos ei sulla jo ole
