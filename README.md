@@ -1,6 +1,6 @@
 # Git-koulutus  
 
-![git koulutus suunnittelijoille](docs/banner.png)
+![git koulutus suunnittelijoille](img/banner.png)
 
 Oletus on että oppilaat eivät juuri ole käyttäneet gittiä mutta haluavat oppia käyttämää sitä. Harjoitusten tavoitteena on että opitaan perus git workflow monikehittäjäympäristössä sekä siihen tarvittavat työkalut (koodieditori, pääte, git, github) käytännön tehtävän kautta. Lopuksi kerrataan opitut asiat ja annetaan läksy.
 
