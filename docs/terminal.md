@@ -4,11 +4,11 @@
 
 Importtaa ja aktivoi theme
 
-![ohje](1.png)
+![ohje](/img/1.png)
 
-![ohje](2.png)
+![ohje](/img/2.png)
 
-![ohje](3.png)
+![ohje](/img/3.png)
 
 Muokkaa bash_profilea `atom ~/.bash_profile`
 
